@@ -50,6 +50,9 @@ ruleTester.run("no-contradicting-classname", rule, {
         },
       ],
     },
+    {
+      code: '<div class="grid grid-cols-3"></div>',
+    },
   ],
 
   invalid: [
